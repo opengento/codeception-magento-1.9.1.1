@@ -50,7 +50,7 @@ composer install
 6/ Configure codeception
 
 ```
-cp tests/acceptance.suite.yml.template tests/acceptance.suite.xml
+cp tests/acceptance.suite.yml.template tests/acceptance.suite.yml
 cp tests/acceptance/AcceptanceTester.php.template tests/acceptance/AcceptanceTester.php
 cp tests/_support/AcceptanceHelper.php.template tests/_support/AcceptanceHelper.php
 ```
