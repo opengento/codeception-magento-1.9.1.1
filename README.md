@@ -3,8 +3,11 @@
 ## Installation
 
 0/ Install Composer
+
 1/ Install NodeJS
+
 2/ Install PhantomJS
+
 3/ Run PhantomJS
 
 ```
@@ -41,10 +44,22 @@ phantomjs --webdriver=4444 &
 
 5/ Run composer install
 ```
-$ composer install
+composer install
 ```
 
-6/ Run Codeception tests
+6/ Configure codeception
+
+```
+cp tests/acceptance.suite.yml.template tests/acceptance.suite.xml
+cp tests/acceptance/AcceptanceTester.php.template tests/acceptance/AcceptanceTester.php
+cp tests/_support/AcceptanceHelper.php.template tests/_support/AcceptanceHelper.php
+```
+
+7/ Set base URL in `tests/acceptance.suite.yml.template`
+
+# Utilisation
+
+Run Codeception tests :
 
 ```
 vendor/bin/codecept --debug
