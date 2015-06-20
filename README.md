@@ -1,10 +1,17 @@
 # codeception-magento-1.9.1.1
 
+## Installation
 
-## How to use
+0/ Install Composer
+1/ Install NodeJS
+2/ Install PhantomJS
+3/ Run PhantomJS
+
 ```
-$ nano composer.json
+phantomjs --webdriver=4444 &
 ```
+
+4/ Create `composer.json` :
 
 ```
 {
@@ -30,6 +37,15 @@ $ nano composer.json
 }
 
 ```
+
+
+5/ Run composer install
 ```
 $ composer install
+```
+
+6/ Run Codeception tests
+
+```
+vendor/bin/codecept --debug
 ```
