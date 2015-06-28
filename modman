@@ -1,1 +1,2 @@
-tests/acceptance/*   tests/acceptance/
+tests/_data/dump.sql    tests/_data/dump.sql
+tests/acceptance/*      tests/acceptance/
