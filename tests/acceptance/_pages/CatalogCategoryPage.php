@@ -15,7 +15,7 @@ class CatalogCategoryPage
 
 
     public static function amOn(AcceptanceTester $I) {
-        $I->seeElement(self::CSS_BODY_CURRENT);
+        $I->waitForElement(self::CSS_BODY_CURRENT);
     }
 
 

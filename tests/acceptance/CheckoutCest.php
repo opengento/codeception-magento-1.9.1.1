@@ -6,7 +6,7 @@ class GeneralCest
 
     public function _before(AcceptanceTester $I)
     {
-        HomePage::moveTo($I);
+        $I->amOnPage('/');
     }
 
     public function testNoDeadPages(AcceptanceTester $I) {
