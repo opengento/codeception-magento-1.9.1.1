@@ -7,10 +7,10 @@ The idea is that if you have a custom project you will duplicate those tests in 
 
 If you develop new generic tests, please contribute them back to this project by either coming to a Magento Hackathon and requesting write access to this repository or by forking it and submitting a pull request.
 
-## 2 Repositories
+## Two Repositories
 
-1 repository for common Codeception configuration witch not depend on Magento version.
-1 repository for each Magento version (here is 1.9.1.1)
+* 1 repository for common Codeception configuration witch not depend on Magento version.
+* 1 repository for each Magento version (here is 1.9.1.1)
 
 ## Usage
 
@@ -24,7 +24,6 @@ If you develop new generic tests, please contribute them back to this project by
 
 For each test you run, Codeception get `data/dump.sql` and restore it above your current local DB.
 
-
 ## License
 
 [GNU General Public License, version 3 (GPLv3)](./LICENCE)
@@ -33,4 +32,4 @@ For each test you run, Codeception get `data/dump.sql` and restore it above your
 
 Here are people responsible for this project:
 
-* Pierre Martin: [real34 (Github)](https://github.com/real34), [@pierremartin (Twitter)](https://twitter.com/pierremartin)
+* Frédéric Martinez: [FredericMartinez (Github)](https://github.com/FredericMartinez), [@FredMartinez (Twitter)](https://twitter.com/FredMartinez)
