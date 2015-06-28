@@ -20,11 +20,13 @@ If you develop new generic tests, please contribute them back to this project by
 * Configure your [`composer.json` file](CONFIGURE_COMPOSER.md)
 * Install [compressed Sample data 1.9.1.0](https://github.com/Vinai/compressed-magento-sample-data)
 * Install Magento 1.9.1.1
-* Run tests `$ vendor/bin/codecept run --debug -c htdocs --env local`
+* Run tests `vendor/bin/codecept run --debug -c htdocs --env local`
 
 
-If you want, for each test you run, Codeception can get `data/dump.sql` and restore it above your current local DB.
-Dump is located in `tests/_data/dump.sql`
+If you want, for each test you run, Codeception can get `tests/data/dump.sql` and restore it above your current local DB.
+To enable this feature, just comment `env/local/enabled/Db` in `tests/acceptance.suite.yml`
+
+Note: Dump is located in `tests/_data/dump.sql`
 
 ## How to create new tests
 
