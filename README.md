@@ -68,7 +68,16 @@ You can add your own pattern in `tests/acceptance/_boostrap.php`.
 Example with an Action Pattern: `\Codeception\Util\Autoload::registerSuffix('Action', __DIR__.DIRECTORY_SEPARATOR.'_actions');`
 
 
-### 
+
+## Troubleshooting
+
+PhantomJS is not running:
+
+```
+[WebDriverCurlException]
+Curl error thrown for http POST to /session with params: {"desiredCapabilities":{"browserName":"firefox"}}
+Failed to connect to 127.0.0.1 port 4444: Connection refused
+```
 
 ## License
 
