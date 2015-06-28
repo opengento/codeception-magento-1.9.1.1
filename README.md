@@ -9,8 +9,8 @@ If you develop new generic tests, please contribute them back to this project by
 
 ## Two Repositories
 
-* 1 repository for common Codeception configuration witch not depend on Magento version.
-* 1 repository for each Magento version (here is 1.9.1.1)
+* 1 repository for [common Codeception configuration](https://github.com/PH2M/codeception-magento) witch not depend on Magento version.
+* 1 repository for each Magento version (here you are! 1.9.1.1)
 
 ## Install
 
@@ -32,14 +32,9 @@ Note: Dump is located in `tests/_data/dump.sql`
 
 ### Cest files and public methods
 
-Tests are located in Cest files.
-For exemple: `tests/acceptance/CheckoutCest.php`
-You method have to begin with the word `test`.
+Tests are located in Cest files (Example: `tests/acceptance/CheckoutCest.php`)
+Codeception will load every public method in Cest files.
 
-You can add:
-
-* More method
-* New Cest files
 
 ### Write a test
 
@@ -60,7 +55,7 @@ For example: `tests/acceptance/_pages/HomePage.php`
 The idea is to use always a Page method in Cest files.
 You never have to write tests directly in Cest files.
 
-A Page object have always the same 2 methods:
+A Page object has always the same 2 methods:
 
 * `MyPage::moveTo`: click (or fill fields) to go to your page
 * `MyPage::amOn`: check if you are on the good page
