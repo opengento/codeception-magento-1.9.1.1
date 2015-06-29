@@ -12,19 +12,19 @@
         },
       {
         "type": "vcs",
-        "url":  "git@github.com:PH2M/codeception-magento-1.9.1.1.git"
+        "url":  "git@github.com:opengento/codeception-magento-1.9.1.1.git"
       },
       {
         "type": "vcs",
-        "url":  "git@github.com:PH2M/codeception-magento.git"
+        "url":  "git@github.com:opengento/codeception-magento.git"
       }
     ],
     "require": {
         "bragento/magento-composer-installer": "~1",
         "magento/core": "1.9.1.*",
         "colinmollenhour/modman": "*",
-        "PH2M/codeception-magento": "dev-master",
-        "PH2M/codeception-magento-1.9.1.1": "dev-master"
+        "opengento/codeception-magento": "dev-master",
+        "opengento/codeception-magento-1.9.1.1": "dev-master"
     },
     "scripts": {
         "modman": "vendor/bin/modman deploy-all --force"
