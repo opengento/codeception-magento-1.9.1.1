@@ -9,7 +9,7 @@ If you develop new generic tests, please contribute them back to this project by
 
 ## Two Repositories
 
-* 1 repository for [common Codeception configuration](https://github.com/PH2M/codeception-magento) witch not depend on Magento version.
+* 1 repository for [common Codeception configuration](https://github.com/opengento/codeception-magento) witch not depend on Magento version.
 * 1 repository for each Magento version (here you are! 1.9.1.1)
 
 ## Install
