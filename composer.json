@@ -1,5 +1,5 @@
 {
-  "name"              : "PH2M/codeception-magento-1.9.1.1",
+  "name"              : "opengento/codeception-magento-1.9.1.1",
   "description"       : "Acceptance, functional and units tests for Magento 1.9.1.1.",
   "type"              : "magento-module"
 }
